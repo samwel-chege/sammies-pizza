@@ -11,13 +11,30 @@
     background-color: rgb(8, 135, 151);
 }
 #disp{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background-image: url(../Images/img.jpg/food-photographer-david-fedulov-Xt84tIHbjRY-unsplash.jpg);
     background-size: cover;
     padding-top: 5%;
 }
-
+#img1{
+    height: 40vh;
+    width: 20vw;
+    background-image: url(../Images/img.jpg/vitalii-chernopyskyi-Oxb84ENcFfU-unsplash.jpg);
+    background-size: cover;
+}
+#img2{
+    height: 40vh;
+    width: 20vw;
+    background-image: url(../Images/img.jpg/veggie.jpg);
+    background-size: cover;
+}
+#img3{
+    height: 40vh;
+    width: 20vw;
+    background-image: url(../Images/img.jpg/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg);
+    background-size: cover;
+}
 
 @media  screen and (min-width:480px)and (max-width:767px) {
     #brand{
