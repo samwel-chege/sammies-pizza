@@ -10,6 +10,13 @@
 #navg{
     background-color: rgb(8, 135, 151);
 }
+#disp{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../Images/vitalii-chernopyskyi-Oxb84ENcFfU-unsplash.jpg);
+    background-size: cover;
+}
+
 @media  screen and (min-width:480px)and (max-width:767px) {
     #brand{
         margin-right: 305px;
@@ -18,4 +25,5 @@
     .navbar{
         padding: 10px;
     }
+    
 }
