@@ -1,11 +1,14 @@
 .navbar-brand{
-    color: white;
+   
     font-size: 20px;
     margin-bottom: -20px;
 }
 .nav-link{
-    color: white;
+    
     font-size: 18px;
+}
+#navg{
+    background-color: rgb(8, 135, 151);
 }
 @media  screen and (min-width:480px)and (max-width:767px) {
     #brand{
