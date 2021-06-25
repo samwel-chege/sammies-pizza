@@ -10,10 +10,27 @@
 #navg{
     background-color: rgb(8, 135, 151);
 }
+.intro{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 200px;
+    color: rgb(224, 232, 233);
+    padding-top: 25%;
+}
+.intro2{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.disp2{
+    padding-top: 2%;
+}
 #disp{
     height: 90vh;
     width: 100%;
-    background-image: url(../Images/img.jpg/food-photographer-david-fedulov-Xt84tIHbjRY-unsplash.jpg);
+    background-image: url(../Images/img.jpg/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg);
     background-size: cover;
     padding-top: 5%;
 }
@@ -22,18 +39,22 @@
     width: 20vw;
     background-image: url(../Images/img.jpg/vitalii-chernopyskyi-Oxb84ENcFfU-unsplash.jpg);
     background-size: cover;
+    margin-left: 6%;
 }
 #img2{
     height: 40vh;
     width: 20vw;
     background-image: url(../Images/img.jpg/veggie.jpg);
     background-size: cover;
+    margin-left: 2%;
+    
 }
 #img3{
     height: 40vh;
     width: 20vw;
-    background-image: url(../Images/img.jpg/karthik-garikapati-oBbTc1VoT-0-unsplash.jpg);
+    background-image: url(../Images/img.jpg/food-photographer-david-fedulov-Xt84tIHbjRY-unsplash.jpg);
     background-size: cover;
+    margin-left: 2%;
 }
 
 @media  screen and (min-width:480px)and (max-width:767px) {
