@@ -8,7 +8,7 @@
     font-size: 18px;
 }
 #navg{
-    background-color: rgb(8, 135, 151);
+    background-color: rgb(85, 165, 235);
 }
 .intro{
     text-align: center;
@@ -44,6 +44,24 @@
   font-weight: bolder;
   text-align: center;
   background-color: rgb(85, 165, 235); 
+}
+#cont2{
+    font-size: medium;
+}
+#cont3{
+    background-color: rgb(85, 165, 235);
+    text-align: center;
+    font-size: large;
+}
+#button{
+    font-size: medium;
+}
+#header1{
+    font-weight: bolder;
+    font-size: larger;
+}
+#form1, #form2{
+    width: 50%;
 }
 
 @media  screen and (min-width:480px)and (max-width:767px) {
