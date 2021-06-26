@@ -26,6 +26,8 @@
 }
 .disp2{
     padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
 }
 #disp{
     height: 90vh;
@@ -34,27 +36,14 @@
     background-size: cover;
     padding-top: 5%;
 }
-#img1{
-    height: 40vh;
-    width: 20vw;
-    background-image: url(../Images/img.jpg/vitalii-chernopyskyi-Oxb84ENcFfU-unsplash.jpg);
-    background-size: cover;
-    margin-left: 6%;
-}
-#img2{
-    height: 40vh;
-    width: 20vw;
-    background-image: url(../Images/img.jpg/veggie.jpg);
-    background-size: cover;
-    margin-left: 2%;
-    
-}
-#img3{
-    height: 40vh;
-    width: 20vw;
-    background-image: url(../Images/img.jpg/food-photographer-david-fedulov-Xt84tIHbjRY-unsplash.jpg);
-    background-size: cover;
-    margin-left: 2%;
+#img1, #img2, #img3{
+  display: none;
+  color: whitesmoke;
+  opacity: 10;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  background-color: rgb(85, 165, 235); 
 }
 
 @media  screen and (min-width:480px)and (max-width:767px) {
