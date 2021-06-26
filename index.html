@@ -59,23 +59,22 @@
      </div>
     </section>
     <section>
-        <div class="container">
+        <div class="container" id="cont2">
           <div class="jumbotron">
-                <h3>Place your order here</h3>
-                <form action="/action_page.php">
-                    <div class="form-group">
-                      <label for="sel1">Select size</label>
-                      <select class="form-control" id="sel1" name="sellist1">
-                        <option>Large</option>
-                        <option>Medium</option>
-                        <option>Small</option>
-                      </select>
-                      <label for="sel1">Select crust</label>
-                      <select class="form-control" id="sel1" name="sellist1">
-                        <option>Crispy</option>
-                        <option>Stuffed</option>
-                        <option>Gluten-free</option>
-                      </select>
+                <h3 id="header1">Place your order here</h3>
+                <form>
+                  <select class="custom-select custom-select-lg mb-3" id="form1">
+                    <option selected>select size</option>
+                    <option value="volvo">Large @ 1200</option>
+                    <option value="fiat">Medium @ 1000</option>
+                    <option value="audi">Small @ 800</option>
+                  </select>
+                  <select name="cars" class="custom-select custom-select-lg mb-3" id="form2">
+                    <option selected>select crust</option>
+                    <option value="volvo">Crispy @ 100</option>
+                    <option value="fiat">Stuffed @ 120</option>
+                    <option value="audi">Gluten-free @ 150</option>
+                   </select><br>
                       <div class="form-check-inline">
                         <label class="form-check-label">
                           <input type="checkbox" class="form-check-input" value="">Cheese
@@ -90,12 +89,17 @@
                         <label class="form-check-label">
                           <input type="checkbox" class="form-check-input" value="">Mushroom
                         </label>
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Order</button>
-                  </form>
+                      </div><br>
+                    <button type="submit" id="button" class="btn btn-primary">Order</button>
+                </form>
             </div>
         </div>
+    </section>
+    <section>
+      <div class="abt" id="cont3">
+          <h1>About us</h1>
+          <p>Sammie's pizza is a pizza restaurant dedicated in ensuring customer's satisfaction.<br>We take our time preparing super delicious pizza  using high quality ingredients and still make sure its is delivered to you <br>in under 30 minutes.</p>
+      </div>
     </section>
        <script src="JS/scripts.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
