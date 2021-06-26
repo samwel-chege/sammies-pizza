@@ -1,18 +1,18 @@
 $(document).ready(function(){
-    $("").mouseover(function(){
-        $("").show();
+    $("#image1").mouseover(function(){
+        $("#img1").show();
     }).mouseout(function(){
-        $("").hide();
+        $("#img1").hide();
     });
-    $("").mouseover(function(){
-        $("").show();
+    $("#image2").mouseover(function(){
+        $("#img2").show();
     }).mouseout(function(){
-        $("").hide();
+        $("#img2").hide();
     });
-    $("").mouseover(function(){
-        $("").show();
+    $("#image3").mouseover(function(){
+        $("#img3").show();
     }).mouseout(function(){
-        $("").hide();
+        $("#img3").hide();
     });
 
-})
+});
