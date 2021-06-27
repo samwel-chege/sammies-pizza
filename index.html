@@ -59,41 +59,52 @@
      </div>
     </section>
     <section>
-        <div class="container" id="cont2">
-          <div class="jumbotron">
-                <h3 id="header1">Place your order here</h3>
-                <form>
-                  <select class="custom-select custom-select-lg mb-3" id="form1">
-                    <option selected>select size</option>
-                    <option value="volvo">Large @ 1200</option>
-                    <option value="fiat">Medium @ 1000</option>
-                    <option value="audi">Small @ 800</option>
-                  </select>
-                  <select name="cars" class="custom-select custom-select-lg mb-3" id="form2">
-                    <option selected>select crust</option>
-                    <option value="volvo">Crispy @ 100</option>
-                    <option value="fiat">Stuffed @ 120</option>
-                    <option value="audi">Gluten-free @ 150</option>
-                   </select><br>
-                      <div class="form-check-inline">
-                        <label class="form-check-label">
-                          <input type="checkbox" class="form-check-input" value="">Cheese
-                        </label>
-                      </div>
-                      <div class="form-check-inline">
-                        <label class="form-check-label">
-                          <input type="checkbox" class="form-check-input" value="">Salami
-                        </label>
-                      </div>
-                      <div class="form-check-inline">
-                        <label class="form-check-label">
-                          <input type="checkbox" class="form-check-input" value="">Mushroom
-                        </label>
-                      </div><br>
-                    <button type="submit" id="button" class="btn btn-primary">Order</button>
-                </form>
-            </div>
+      <div class="container" id="con">
+        <div class="row">
+         <div class="col-md-6">
+           <div class="jumbotron">
+            <h3 id="header1">Place your order here</h3>
+            <form>
+              <select class="custom-select custom-select-lg mb-3" id="size">
+                <option selected>select size</option>
+                <option value="large">Large @ 1200</option>
+                <option value="medium">Medium @ 1000</option>
+                <option value="small">Small @ 800</option>
+              </select>
+              <select name="crust" class="custom-select custom-select-lg mb-3" id="crust">
+                <option selected>select crust</option>
+                <option value="crispy">Crispy @ 100</option>
+                <option value="stuffed">Stuffed @ 120</option>
+                <option value="gluten-free">Gluten-free @ 150</option>
+               </select><br>
+               <h3 id="header2">Choose your favorite topping:</h3>
+                  <div class="form-check-inline" id="check">
+                    <label class="form-check-label" for="check1">
+                      <input type="checkbox" class="form-check-input" id="check1" value="">Cheese
+                    </label>
+                  </div>
+                  <div class="form-check-inline" id="check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" id="check2" value="">Salami
+                    </label>
+                  </div>
+                  <div class="form-check-inline" id="check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" id="check3" value="">Mushroom
+                    </label>
+                  </div><br>
+                <button type="submit" id="button" class="btn btn-primary">Order</button>
+            </form>
+           </div>
+         </div>
+          <div class="col-md-6">
+              <div class="jumbotron">
+                <ul id="list">
+                </ul>
+              </div>
+          </div>
         </div>
+      </div>
     </section>
     <section>
       <div class="abt" id="cont3">
@@ -101,6 +112,7 @@
           <p>Sammie's pizza is a pizza restaurant dedicated in ensuring customer's satisfaction.<br>We take our time preparing super delicious pizza  using high quality ingredients and still make sure its is delivered to you <br>in under 30 minutes.</p>
       </div>
     </section>
+   
        <script src="JS/scripts.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
