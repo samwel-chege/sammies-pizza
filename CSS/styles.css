@@ -51,11 +51,11 @@
     text-align: center;
     font-size: large;
 }
-#button, #list, #size, #crust, #check{
+#button, #list, #size, #crust, #topping, #amount, #location{
     font-size: medium;
 }
 
-#size, #crust{
+#size, #crust, #topping, #amount{
     width: 50%;
 }
 #con{
