@@ -64,35 +64,26 @@
          <div class="col-md-6">
            <div class="jumbotron">
             <h3 id="header1">Place your order here</h3>
-            <form>
+            <form id="input-forms">
               <select class="custom-select custom-select-lg mb-3" id="size">
                 <option selected>select size</option>
-                <option value="large">Large @ 1200</option>
-                <option value="medium">Medium @ 1000</option>
-                <option value="small">Small @ 800</option>
+                <option value="large">Large @1200</option>
+                <option value="medium">Medium @1000</option>
+                <option value="small">Small @800</option>
               </select>
               <select name="crust" class="custom-select custom-select-lg mb-3" id="crust">
                 <option selected>select crust</option>
-                <option value="crispy">Crispy @ 100</option>
-                <option value="stuffed">Stuffed @ 120</option>
-                <option value="gluten-free">Gluten-free @ 150</option>
+                <option value="crispy">Crispy @100</option>
+                <option value="stuffed">Stuffed @120</option>
+                <option value="gluten-free">Gluten-free @150</option>
+               </select>
+               <select name="topping" class="custom-select custom-select-lg mb-3" id="topping">
+                <option selected>select toppings</option>
+                <option value="cheese">Cheese @80</option>
+                <option value="salami">Salami @100</option>
+                <option value="mushroom">Mushroom @120</option>
                </select><br>
-               <h3 id="header2">Choose your favorite topping:</h3>
-                  <div class="form-check-inline" id="check">
-                    <label class="form-check-label" for="check1">
-                      <input type="checkbox" class="form-check-input" id="check1" value="">Cheese
-                    </label>
-                  </div>
-                  <div class="form-check-inline" id="check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" id="check2" value="">Salami
-                    </label>
-                  </div>
-                  <div class="form-check-inline" id="check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" id="check3" value="">Mushroom
-                    </label>
-                  </div><br>
+               <input type="number" id="amount" placeholder="select number of pizzas"required><br>
                 <button type="submit" id="button" class="btn btn-primary">Order</button>
             </form>
            </div>
@@ -101,6 +92,20 @@
               <div class="jumbotron">
                 <ul id="list">
                 </ul>
+                <h3>Cost: Ksh. <span id="total-cost"></span></h3><br>
+                <div class="deliver" id="deliver">
+                  <h4>Do you want your pizza delivered with a fee of sh.100?</h4><br>
+                  <form id="address-form">
+                    <input id="location" type="text" placeholder="Enter your location" required/>
+                    <button class="" type="submit">Submit</button>
+                    <h3><span id="delivery-option"></span></h3>
+                  </form>
+                  <button type="button" id="checkout">Checkout</button><br>
+                  <div id="order-details">
+                    <ul id="pizza-details">Your order is:</ul>
+                    <h3 id="pizza-details">Enjoy!</h3>
+                  </div>
+                </div>
               </div>
           </div>
         </div>
