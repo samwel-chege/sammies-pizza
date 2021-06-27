@@ -1,7 +1,7 @@
 .navbar-brand{
    
     font-size: 20px;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
 }
 .nav-link{
     
@@ -34,7 +34,6 @@
     width: 100%;
     background-image: url(../Images/img.jpg/veggies.jpg);
     background-size: cover;
-    padding-top: 5%;
 }
 #img1, #img2, #img3{
   display: none;
