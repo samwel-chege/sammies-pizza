@@ -76,10 +76,8 @@ $(document).ready(function() {
       var newPizzaOrder = new Order(size, crust, toppings);
       newPizzaOrder.pizzaCost();
       totalPriceArray.push(newPizzaOrder.pizzaPrice);
-      // $("#pizza-details").hide();
       $("#total-cost").text(newPizzaOrder.finalCost());
       $("#pizza-details").append("<ul><li>" + pizzaDetails + "</li></ul>");
-      // $("#size, #crust, #toppings,").val("");
     });
     $("#button").click(function() {
       $("#deliver").toggle();
