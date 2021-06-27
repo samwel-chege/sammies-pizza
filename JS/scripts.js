@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     $("#image1").mouseover(function(){
         $("#img1").show();
@@ -15,4 +16,14 @@ $(document).ready(function(){
         $("#img3").hide();
     });
 
+});
+
+$(document).ready(function(){
+    $("#button").click(function(x){
+        x.preventDefault();
+        var size = $("#size option:selected").val();
+        var crust = $("#crust option:selected").val();
+        $("ul#list").append("<li>" + size + " " + crust + "</li>")
+        
+    });
 });
